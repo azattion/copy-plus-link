@@ -9,7 +9,7 @@
                 f = options.htmlcopytxt;
             } else {
                 var d = window.location + "&f=cp";
-                f = "<br/> Подробнее: <a href='" + d + "'>" + d + "</a>";
+                f = "<br/> More: <a href='" + d + "'>" + d + "</a>";
             }
             var h = e.toString().trim().replace(/\n/g, "<br/>") + f, g = document.createElement("div"), b = e.getRangeAt(0);
             document.body.appendChild(g);
