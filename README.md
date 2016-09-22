@@ -1,5 +1,10 @@
 copy plus link jquery plugin
 
 
-<h1>Example: </h1>
+<h3>Example: </h3>
 $("body").copyPlusLink();
+
+<h3>Options</h3>
+$("body").copyPlusLink(
+    {htmlcopytxt: you link text }
+);
