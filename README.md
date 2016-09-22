@@ -6,5 +6,6 @@ $("body").copyPlusLink();
 
 <h3>Options</h3>
 $("body").copyPlusLink(
-    {htmlcopytxt: you link text }
+    {htmlcopytxt: you link text } // default 'More ' + window.location
 );
+
